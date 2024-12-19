@@ -1,0 +1,93 @@
+/* General Body Styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: #ffffff;
+}
+
+/* Container Styling */
+.container {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    width: 400px;
+    color: #333;
+}
+
+/* Heading Styling */
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #6a11cb;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Input Labels */
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Input Fields and Dropdown */
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 14px;
+    color: #555;
+    background-color: #f9f9f9;
+}
+
+/* Input and Dropdown Focus */
+input:focus, select:focus {
+    border-color: #6a11cb;
+    outline: none;
+    box-shadow: 0 0 5px rgba(106, 17, 203, 0.5);
+}
+
+/* Submit Button */
+button {
+    width: 100%;
+    padding: 12px;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: background 0.3s ease-in-out;
+}
+
+button:hover {
+    background: linear-gradient(135deg, #2575fc, #6a11cb);
+}
+
+/* Table Cell Alignment */
+td {
+    padding: 10px;
+}
+td:nth-child(1) {
+    text-align: right;
+    vertical-align: top;
+    color: #6a11cb;
+}
